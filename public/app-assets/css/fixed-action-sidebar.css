@@ -1,0 +1,194 @@
+
+
+/* table css */
+.item-table-scroll {
+	position:relative;
+	overflow:hidden;
+}
+.item-table-wrap {
+	width:100%;
+}
+.item-table-scroll table {
+	width:100%;
+
+}
+.item-table-scroll th, .item-table-scroll td {
+	white-space: nowrap;
+	vertical-align: middle;
+	padding: 0.5rem;;
+	font-size: 14px;
+}
+.item-table-scroll thead th.sn-col, .item-table-scroll tbody td.sn-col{
+	width: 100px;
+	min-width: 100px;
+	max-width: 100px;
+	text-align: center;
+	padding: 10px 5px;
+}
+.item-table-scroll thead th + th{
+	border-left: 1px solid #d5d5d5;
+}
+.item-table-scroll td {
+	color: #707070;
+	border-bottom: 1px solid #d5d5d5;
+}
+.item-clone.item-main-table {
+	position:absolute;
+	top:0;
+	right:0;
+	pointer-events:none;
+	width: auto;
+	border: 0 none;
+}
+.item-clone th, .item-clone td {
+	visibility:hidden
+}
+.item-clone td, .item-clone th {
+	border-color:transparent
+}
+.item-clone tbody th {
+	visibility:visible;
+	color:red;
+}
+.item-clone .item-fixed-side {
+	visibility: visible;
+	border-right: 1px solid #d5d5d5;
+}
+.item-table-scroll th.item-fixed-side, .item-table-scroll td.item-fixed-side {
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	background-color: #f0f0f0;
+	text-align: center;
+	vertical-align: top;
+}
+.item-table-scroll td.item-fixed-side {
+	border-bottom: 1px solid #d5d5d5;
+}
+.item-clone thead th.item-fixed-side {
+	border-top: 1px solid #d5d5d5;
+	border-left: 0 none;
+	background: #00A5A8;
+}
+.item-clone thead, .item-clone tfoot{
+	background: transparent;
+}
+.item-items-list{
+	padding-top: 20px;
+}
+.item-fixed-side a{
+	font-size: 14px;
+	margin: 8px 8px;
+	pointer-events: all;
+	color: #fff !important;
+}
+.item-fixed-side i.fa-pencil-square-o{
+	color: #20a1dd;
+}
+.item-fixed-side i.fa-trash-o{
+	color: #e53c3c;
+}
+.item-main-table tbody tr:nth-child(even) td{
+	background-color: #f8f8f8;
+}
+.item-main-table tbody tr:nth-child(even) td.item-fixed-side{
+	background-color: #f0f0f0;
+}
+.enter-item-name p{
+	font-size: 18px;
+	margin: 0;
+	padding-top: 31px;
+}
+.item-list-inner-wrapper input.form-control{
+	padding: 5px 10px;
+	font-size: 17px;
+	line-height: 40px;
+	height: 40px;
+}
+.item-items-list.item-add-table {
+	padding-top: 25px;
+}
+.item-add-table .item-table-scroll td.item-fixed-side {
+	border-left: 1px solid #d5d5d5;
+	vertical-align: middle;
+	background-color: transparent;
+}
+.item-add-table .item-table-scroll{
+	margin-bottom: 25px;
+}
+.select2.select2-container.select2-container--default,
+.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus{
+	width: 100%;
+}
+.item-add-table .speciality-col{
+	width: 20%;
+}
+.item-add-table .priority-col{
+	width: 10%;
+}
+select.speciality-select2 {
+	background: #fff;
+	height: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+
+/* Responsive site css */
+
+/* Large Devices, Wide Screens */
+@media (max-width: 1199px) { /* Small Desktop Start */
+	input.ambulance-crud-search {
+		width: 300px;
+	}
+	.item-list-top-menus a span.icon {
+		padding: 8px 5px 8px 5px;
+	}
+	.item-list-top-menus a span.text {
+		padding: 10px 5px 10px 5px;
+	}
+	.item-list-top-menus a {
+		width: 200px;
+		margin-left: 10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) { /* Tablet Start */
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 767px) { /* Mobile Start */
+	.flex-space-between-align-center {
+		display: inherit;
+	}
+	.item-show-limit{
+		padding: 10px 0;
+	}
+	.item-show-limit select {
+		width: 80px;
+	}
+	.ambulance-crud-search-wrapper input{
+		width: 100% !important;
+		margin: 10px 0;
+	}
+	.item-list-top-menus a span.icon {
+		padding: 8px 5px 5px 12px;
+	}
+	.item-table-scroll th.item-fixed-side, .item-table-scroll td.item-fixed-side {
+		width: 75px;
+		max-width: 75px;
+		min-width: 75px;
+	}
+	.item-fixed-side a {
+		margin: 0 2px;
+	}
+	input.ambulance-crud-search {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	div.dataTables_wrapper div.dataTables_filter{
+		margin-bottom: 10px;
+	}
+}

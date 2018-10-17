@@ -1,0 +1,155 @@
+.main-menu.menu-dark .navigation > li {
+      border-bottom: 1px #00A5A8 solid;
+}
+
+.card-header{
+  border-bottom: 1px solid #d8d8d8;
+  padding: 15px 30px 12px 30px;
+  font-size: 19px;
+  color: #3f4d67;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 1.875rem;
+  border: none;
+  box-shadow: 0px 2px 9px 0px #dedede;
+}
+
+.requiredField{
+  color: #d60505;
+}
+
+.navigation li a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main-menu.menu-dark .navigation > li .active > a {
+    color: #00B5B8;
+    font-weight: 500;
+    background:#344054
+}
+.table_head{
+    background: #466b80;
+    color: white;
+}
+.add_more_thead{
+    background: #00A5A8;
+    color:#fff;
+}
+.btnColor{
+	color: #fff;
+	font-weight: 700;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: unset;
+    align-items: stretch;
+    width: 100%;
+}
+.row_element_border{
+    /*border: 1px solid #d3dce9;*/
+    /*padding: 18px 14px;*/
+    /*border-radius: 5px;*/
+    /*margin-bottom: 19px;*/
+}
+.bottom{
+    margin-bottom: 22px;
+    border-radius: 3px;
+}
+.table th, .table td {
+    padding: 0.5rem;
+}
+tbody tr:nth-child(even) td{
+    background-color: #f8f8f8;
+}
+tbody tr:nth-child(even) td.item-fixed-side{
+    background-color: #f0f0f0;
+}
+.th-min-width-100{
+    min-width: 134px;
+}
+.th-min-width-150{
+    min-width: 150px;
+}
+.th-min-width{
+    min-width: 200px;
+}
+.th-min-width-500{
+    min-width: 500px;
+}
+.th-min-width-600{
+    min-width: 600px;
+}
+.th-min-width-300{
+    min-width: 300px;
+}
+.th-min-width-350{
+    min-width: 350px;
+}
+.th-min-width-200{
+    min-width: 200px;
+}
+.th-min-width-260{
+    min-width: 260px;
+}
+.th-list-action-width{
+    min-width: 107px;
+}
+.td-list-action-width{
+    width: 107px;
+}
+.min-width-85{
+    min-width: 85px;
+}
+
+.per_page{
+    width: 74px;
+    height: 34px;
+    margin-bottom: 23px;
+}
+.form-group.has-danger .form-control{
+    border-color:#d60505
+}
+.input-group.has-danger .form-control{
+    border-color:#d60505
+}
+.form-control.has-danger{
+    border-color:#d60505
+}
+
+.form-group.has-danger .select2-container--default .select2-selection--single {
+    border-color:#d60505
+}
+#loadingDiv {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('http://i.stack.imgur.com/FhHRx.gif')
+    50% 50%
+    no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading #loadingDiv {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading #loadingDiv {
+    display: block;
+}
+
+.navigation li a {
+    font-size: 12px;
+}
